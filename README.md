@@ -5,9 +5,9 @@
 + Algorithm used is:
   1. Initialize q-table with all zeroes
   2. Loop
-      +Pick a random start state, action(s,a) transition
-      +make transistion from(s,a) -> s’
-      +receive reward
-      +Update Q(s,a) <- R(s,a) + gamma*(max(Q(s’,for all actions possible from next state)))
+      *Pick a random start state, action(s,a) transition
+      *make transistion from(s,a) -> s’
+      *receive reward
+      *Update Q(s,a) <- R(s,a) + gamma*(max(Q(s’,for all actions possible from next state)))
 + Run from main.m
  
